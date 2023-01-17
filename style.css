@@ -1,0 +1,38 @@
+.content {
+    position: relative;
+    margin: 100px auto;
+    width: 1000px;
+}
+
+.nazo-image {
+    width: 1000px;
+}
+
+.timer-wrap {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    margin: 0;
+    bottom: 70%;
+    text-align: center;
+    left: 5%;
+}
+
+.timer {
+    margin: 0 auto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #00A1F1;
+}
+
+.timer.t45 {
+    color: #7CBB00;
+}
+
+.timer.t30 {
+    color: #FFBB00;
+}
+
+.timer.t15 {
+    color: #F65314;
+}
