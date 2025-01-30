@@ -4,7 +4,7 @@ window.onload = function() {
 }
 
 const timer = document.getElementsByClassName('timer')[0];
-var count = 600; // 10分（600秒）
+window.count = 600; // 10分（600秒）
 var countdown = function(){
     timer.textContent = count.toString();
     if(count > 0) {
