@@ -1,5 +1,5 @@
 window.onload = function() {
-    alert("制限時間は10分です。");
+    alert("制限時間は10分です。\n※PC推奨");
     countdown(); // アラートを閉じたタイミングでカウントダウンを開始
 }
 
@@ -13,7 +13,7 @@ var countdown = function(){
     } else {
         timer.textContent = "0"; // 0を表示し続ける
         setTimeout(function() {
-            alert("10分経過しました。解けていない場合はリロードして再挑戦してください。");
+            alert("10分経過しました。解けていない場合はリロードして再挑戦してください。\n\n(devツールのコンソールに'count = 数字;'を入れて好きに変えてもいいよ^^)");
         }, 1000); // 1秒後にアラートを表示
     }
     if(count < 450 && count > 0) { // 7分30秒未満
